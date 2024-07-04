@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
+  border-radius: 5px;
   padding: 50px;
   margin: 0;
   box-shadow: 10px 10px 50px black;
@@ -21,45 +22,45 @@ body {
 }
 
 .reg {
-    padding: 10px;
-    margin: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .reg input {
-    border: none;
-    background: #F2F2F2;
-    width: 290px;
-    height: 50px;
-    font-size: large;
-    padding-left: 10px;
-    outline: none;
+  border: none;
+  background: #f2f2f2;
+  width: 290px;
+  height: 50px;
+  font-size: large;
+  padding-left: 10px;
+  outline: none;
 }
 
 .register-button button {
-    border: none;
-    background-color: #53AF50;
-    padding: 10px;
-    color: #ffffff;
-    width: 300px;
-    height: 50px;
-    font-size: medium;
+  border: none;
+  background-color: #53af50;
+  padding: 10px;
+  color: #ffffff;
+  width: 300px;
+  height: 50px;
+  font-size: medium;
 }
 
 .register-button button:hover {
-    background-color: green;
-    cursor: pointer;
+  background-color: green;
+  cursor: pointer;
 }
 
 .login a {
-    color: #53AF50;
-    text-decoration: none;
+  color: #53af50;
+  text-decoration: none;
 }
 
 .login {
-    margin-top: 20px;
-    color: #BCBFC3;
+  margin-top: 20px;
+  color: #bcbfc3;
 }
 
 .login a:hover {
-    color: green;
+  color: green;
 }

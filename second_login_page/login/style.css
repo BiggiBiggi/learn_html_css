@@ -8,6 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
+  border-radius: 5px;
   padding: 50px;
   margin: 0;
   box-shadow: 10px 10px 50px black;
@@ -18,53 +19,51 @@ body {
 }
 
 .log input {
-    border-style: none;
-    background-color: #F2F2F2;
-    height: 50px;
-    width: 290px;
-    padding-left: 10px;
-    font-size: large;
-    outline: none;
-    
+  border-style: none;
+  background-color: #f2f2f2;
+  height: 50px;
+  width: 290px;
+  padding-left: 10px;
+  font-size: large;
+  outline: none;
 }
 
 .log {
-    margin: 10px;
-    padding: 10px;
-    
+  margin: 10px;
+  padding: 10px;
 }
 
 .login-button {
-    text-align: center;
+  text-align: center;
 }
 
 .login-button button {
-    padding: 10px;
-    background: #53AF50;
-    border: none;
-    color: #ffffff;
-    width: 300px;
-    height: 50px;
-    cursor: pointer;
-    font-size:medium;
+  padding: 10px;
+  background: #53af50;
+  border: none;
+  color: #ffffff;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  font-size: medium;
 }
 
 .login-button button:hover {
-    background: green;
+  background: green;
 }
 
 .signup {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 25px;
-    color: #BCBFC3;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  color: #bcbfc3;
 }
 
 .signup a {
-    color: #53AF50;
-    text-decoration: none;
+  color: #53af50;
+  text-decoration: none;
 }
 
 .signup a:hover {
-    color: green;
+  color: green;
 }
