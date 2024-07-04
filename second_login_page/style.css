@@ -1,0 +1,13 @@
+body {
+    background-color: #81BC60;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin: 0;
+    box-shadow: 10px ;
+}
