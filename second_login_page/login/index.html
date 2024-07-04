@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Connexion</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="log">    
-            <input type="text" placeholder="Nom d'utilisateur" required>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="/action_page.php" method="post">
+      <div class="container">
+        <div class="log">
+          <input type="text" placeholder="Nom d'utilisateur" required />
         </div>
         <div class="log">
-            <input type="password" placeholder="Mot de passe" required>
+          <input type="password" placeholder="Mot de passe" required />
         </div>
         <div class="login-button">
-            <button>SE CONNECTER</button>
+          <button type="submit">SE CONNECTER</button>
         </div>
         <div class="signup">
-            Pas encore inscrit ? <a href="..\signin\index.html"> Créer un compte</a>
+          Pas encore inscrit ?
+          <a href="..\signup\index.html"> Créer un compte</a>
         </div>
-    </div> 
-</body>
+      </div>
+    </form>
+  </body>
 </html>
