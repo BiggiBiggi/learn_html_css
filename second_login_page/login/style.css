@@ -1,7 +1,13 @@
 body {
-  background-color: #81bc60;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    background: linear-gradient(to top left, black, gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
 .container {
   position: absolute;
@@ -10,7 +16,7 @@ body {
   background-color: #ffffff;
   border-radius: 5px;
   padding: 50px;
-  margin: 0;
+  margin: 0px;
   box-shadow: 10px 10px 50px black;
   top: 50%;
   left: 50%;
@@ -20,6 +26,7 @@ body {
 
 .log input {
   border-style: none;
+  border-radius: 5px;
   background-color: #f2f2f2;
   height: 50px;
   width: 290px;
@@ -39,9 +46,10 @@ body {
 
 .login-button button {
   padding: 10px;
-  background: #53af50;
-  border: none;
-  color: #ffffff;
+  border-style: solid;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
   width: 300px;
   height: 50px;
   cursor: pointer;
@@ -49,7 +57,8 @@ body {
 }
 
 .login-button button:hover {
-  background: green;
+  background: black;
+  color: #ffffff;
 }
 
 .signup {
@@ -60,10 +69,10 @@ body {
 }
 
 .signup a {
-  color: #53af50;
+  color: rgb(85, 85, 85);
   text-decoration: none;
 }
 
 .signup a:hover {
-  color: green;
+  color: black;
 }

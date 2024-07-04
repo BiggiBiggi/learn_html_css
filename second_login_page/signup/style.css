@@ -1,9 +1,16 @@
 body {
-  background-color: #81bc60;
+  background: linear-gradient(to top left, black, gray);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 99vh;
   text-align: center;
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.element::-webkit-scrollbar {
+  width: 0 !important;
 }
 
 .container {
@@ -37,22 +44,24 @@ body {
 }
 
 .register-button button {
-  border: none;
-  background-color: #53af50;
   padding: 10px;
-  color: #ffffff;
+  border-style: solid;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
   width: 300px;
   height: 50px;
+  cursor: pointer;
   font-size: medium;
 }
 
 .register-button button:hover {
-  background-color: green;
-  cursor: pointer;
+  background: black;
+  color: #ffffff;
 }
 
 .login a {
-  color: #53af50;
+  color: rgb(85, 85, 85);
   text-decoration: none;
 }
 
@@ -62,5 +71,5 @@ body {
 }
 
 .login a:hover {
-  color: green;
+  color: black;
 }
